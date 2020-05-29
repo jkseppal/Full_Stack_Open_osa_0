@@ -1,0 +1,13 @@
+title Tehtävä 0_6
+selain->palvelin: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+note over selain:
+selain lähettää uuden
+muistiinpanon palvelimelle
+end note
+palvelin-->selain: application/json
+note over selain:
+Palvelin lähettää selaimelle uudella
+notella päivitetyn datan. Selaimessa
+suoritettavalla JavaScriptilla
+manipuloidaan sivun sisältöä
+end note
